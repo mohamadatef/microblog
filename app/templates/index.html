@@ -19,9 +19,12 @@
         <p>Here some extra field</p>>
         {%else%}
         <p> No extradata yet</p>
-
         {% endif %}
     </p>
+    <div>
+        {% block content%}
+        {%endblock%}
+    </div>
     </div>
   </section>
   </body>

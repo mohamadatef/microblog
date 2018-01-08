@@ -1,0 +1,24 @@
+{%extends "base.html"%}
+{%block content%}
+<h1>Sign In</h1>
+<form action = ""  method = "POST">
+{{form.hidden_tag()}}
+<p>
+<label class="label">{{form.username.label}}</label>
+<div class="control">
+    {{form.username(size= 32, class_="input")}}
+  </div>
+
+
+</p>
+<p>
+   <label class= "label">{{form.password.label}}</label>
+    {{form.password(class_="input")}}
+
+</p>
+
+<p>{{form.remember_me()}} {{form.remember_me.label}}</p>
+<p>{{form.submit(class_="button is-primary")}}</p>
+</form>
+
+{%endblock%}
