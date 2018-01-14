@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    "python.pythonPath": "/home/mohamad/anaconda3/bin/python",
     "python.linting.pylintEnabled": false
 }
